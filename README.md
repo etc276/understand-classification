@@ -29,15 +29,15 @@
 
 ## Step 3: Compare the rules in the decision tree from Step 2 and the rules used to generate the "absolutely right" data
 
-## Absolutely right rule
+### Absolutely right rule
 * rule 0: 60 < R < 155 and G < 100 and B > 160 ===> yes
 
 
-## Result from decision tree
+### Result from decision tree
 * rule 1: R ≤ 54 and G ≤ 118.5 and B ≤ 164.5 ===> no
 * rule 2: B ≤ 160.5 ===> no
 
-## Compare
+### Compare
 * rule 1: similar to absolutely right rule
 * rule 2: far from absolutely right rule
 * result: only 97% accuracy
